@@ -1,48 +1,48 @@
 {
     //Main part
 
-    ENABLED = "Enabled";
-    EFFECTS = "Effects";
+    ENABLED = "Ativado";
+    EFFECTS = "Efeitos";
     FORMULAS = "Formulas";
-    RANDOMIZE = "Randomize";
+    RANDOMIZE = "De forma aleatória";
 
     //credit yourself here (if you want)
-    TRANSLATION = "Translation by rweichler";
+    TRANSLATION = "Tradução por RubenEnriques7";
 
-    DONATE = "Donate";
-    SOURCE_CODE = "Source code";
-    R_CYLINDER = "More effects on /r/cylinder";
-    BARREL = "Barrel (original tweak)";
+    DONATE = "Doar";
+    SOURCE_CODE = "Código fonte";
+    R_CYLINDER = "Mais efeitor em /r/cylinder";
+    BARREL = "Barrel (tweak original)";
 
     //Effects subscreen
 
-    RESET_EFFECTS = "Clear";
+    RESET_EFFECTS = "Limpar";
 
     //Formulas subscreen
 
-    CREATE_NEW_FORMULA = "Create new formula";
-    CREATE_FORMULA_INFO = "The new formula will have whatever effects you have enabled right now.";
-    FORMULA_NAME = "Formula name";
-    CREATE_FORMULA = "Create Formula";
-    CANCEL = "Cancel";
-    FORMULA_ALREADY_EXISTS = "A formula with that name already exists.";
-    OVERWRITE_IT = "Overwrite it";
-    NO_EFFECTS_ENABLED_TITLE = "You have no effects enabled!";
-    NO_EFFECTS_ENABLED_DESC = "Go back to the effects list, enable some effects, then come back here and create a new formula.";
-    NO_EFFECTS_ENABLED_OK = "Aight cool";
+    CREATE_NEW_FORMULA = "Criar nova formula";
+    CREATE_FORMULA_INFO = "Esta nova formula irá conter quaisquer efeitos que estejam ativos agora.";
+    FORMULA_NAME = "Nome da formula";
+    CREATE_FORMULA = "Criar Formula";
+    CANCEL = "Cancelar";
+    FORMULA_ALREADY_EXISTS = "Já existe uma formula com o mesmo nome.";
+    OVERWRITE_IT = "Substituir";
+    NO_EFFECTS_ENABLED_TITLE = "Não tens nenhum efeito ativo!";
+    NO_EFFECTS_ENABLED_DESC = "Volta atrás até à lista de efeitos, ativa alguns efeitos, e depois volta aqui e cria uma nova formula.";
+    NO_EFFECTS_ENABLED_OK = "Ok, Boa";
 
     //Donate subscreen
 
-    THANK_YOU = "Thank you";
-    PAYPAL = "Tap here to go to Safari and donate via PayPal";
+    THANK_YOU = "Obrigado";
+    PAYPAL = "Pressiona aqui para ir para o Safari e doar através do Paypal.";
 
     //Footer text
 
     //You do not have to translate this part if you don't want to. I realize it's a lot of work.
 
-    FOOTER_TEXT = "HOW TO CODE YOUR OWN EFFECTS:
+    FOOTER_TEXT = "COMO CODIFICAR OS TEUS PROPRIOS EFEITOS:
 
-Open iFile (or Filza) and go to /Library/Cylinder. There you'll see a bunch of folders with people's usernames. In these folders you'll see a bunch of .lua files. If you open any of these with the text viewer you can see the code. For a start I'd recommend looking at the Backwards.lua file in the gertab folder to get an idea of how to do it. In there if you edit the 2*offset to 3*offset (don't forget to reload the effect after) you'll notice a kind of \"Backwards hella far\" effect.
+Abre o iFile (ou Filza) e vai a /Library/Cylinder. Aí verás um monte de pastas com nomes de contas. Nessas pastas vais ver um monte de ficheiros .lua. Se abrires algum desses ficheiros com o editor de texto conseguirás ver o código. Para começar recomndaria ver o ficheiro Backwards.lua na pasta gertab para ter uma ideia sobre como fazê-lo. Lá dentro, se editares o 2*offset para 3*offset (não esquecer de fazer reload aos efeitos em seguida) verás uma espécie de efeito tipo \"Backwards hella far\".
 
-Follow the pattern you see in order to add your own effects. If you get stuck, take a look at EXAMPLE.lua or search \"lua tutorial\" on YouTube.";
+Segue o padrão que vês para adicionar os teus próprios efeitos. Se ficares bloqueado, dá uma olhada no ficheiro EXAMPLE.lua ou pesquisa \"lua tutorial\" no YouTube.";
 }
